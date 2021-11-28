@@ -1,0 +1,109 @@
+<div style="min-height: 100vh;">
+    <app-header></app-header>
+    <div class="row mx-0 my-4">
+        <div class="col-md-8 col-sm-12 px-5" data-aos="fade-right" data-aos-delay="500">
+            <div class="row">
+                <div class="col-12" style="margin-top: 95px;">
+                    <h4 class="mb-4 shadow-title"><strong>PT. Laksana Abadi Mandiri</strong></h4>
+                    <p class="text-justify text-grey-lam">{{lang == 'id' ? desc_company : desc_company_en}}</p>
+                    <p class="mb-0 shadow-title"><strong>{{lbl_vision_title}} :</strong></p>
+                    <p class="text-grey-lam">{{lang == 'id' ? vision : vision_en}}</p>
+                    <p class="mb-0 shadow-title"><strong>{{lbl_mission_title}} :</strong></p>
+                    <p class="text-justify text-grey-lam">{{lang == 'id' ? mission : mission_en}}</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-12 px-5" data-aos="fade-left" data-aos-delay="300" style="margin-top: 100px;">
+            <div class="row">
+                <div class="col-12">
+                    <img class="card-img-top" src="../../../assets/image/office.jpeg" alt="Office" id="main-about-img"
+                        style="border-radius: 10px;">
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col">
+                    <img class="card-img active" src="../../../assets/image/office.jpeg" alt="office" id="office"
+                        style="height: 50px;">
+                </div>
+                <div class="col px-0">
+                    <img class="card-img" src="../../../assets/image/recepsionist.jpeg" alt="recepsionist"
+                        id="recepsionist" style="height: 50px;">
+                </div>
+                <div class="col">
+                    <img class="card-img" src="../../../assets/image/workshop 1.jpeg" alt="workshop 1" id="workshop1"
+                        style="height: 50px;">
+                </div>
+                <div class="col px-0">
+                    <img class="card-img" src="../../../assets/image/workshop 2.jpeg" alt="workshop" id="workshop2"
+                        style="height: 50px;">
+                </div>
+                <div class="col">
+                    <img class="card-img" src="../../../assets/image/workshop 3.jpeg" alt="warehouse" id="workshop3"
+                        style="height: 50px;">
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-12 col-sm-12 px-5 mt-4">
+            <h4 class="text-center shadow-title" data-aos="fade-up"><strong>{{lbl_history_title}}</strong></h4>
+        </div>
+        <div class="timeline">
+            <div class="outer">
+                <div class="card">
+                    <div class="info">
+                        <h3 class="title">1995</h3>
+                        <p>{{lang == 'id' ? milestone_1_1 : milestone_1_1_en}}</p>
+                        <p>{{lang == 'id' ? milestone_1_2 : milestone_1_2_en}}</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="info">
+                        <h3 class="title">2001</h3>
+                        <p>{{lang == 'id' ? milestone_2 : milestone_2_en}}</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="info">
+                        <h3 class="title">2006</h3>
+                        <p>{{lang == 'id' ? milestone_3 : milestone_3_en}}</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="info">
+                        <h3 class="title">2010</h3>
+                        <p>{{lang == 'id' ? milestone_4 : milestone_4_en}}</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="info">
+                        <h3 class="title">2012</h3>
+                        <p>{{lang == 'id' ? milestone_5 : milestone_5_en}}</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="info">
+                        <h3 class="title">2013</h3>
+                        <p>{{lang == 'id' ? milestone_6 : milestone_6_en}}</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="info">
+                        <h3 class="title">2017</h3>
+                        <p>{{lang == 'id' ? milestone_7 : milestone_7_en}}</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="info">
+                        <h3 class="title">2020</h3>
+                        <p>{{lang == 'id' ? milestone_8_1 : milestone_8_1_en}}</p>
+                        <p>{{lang == 'id' ? milestone_8_2 : milestone_8_2_en}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <app-footer></app-footer>
+</div>
+<button (click)="topFunction()" id="myBtn2" title="Go to top">
+    <ng-lottie height="40px" [options]="options" class="card-img-top" id="up"></ng-lottie>
+</button>

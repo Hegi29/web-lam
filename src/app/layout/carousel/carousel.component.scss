@@ -1,0 +1,49 @@
+.container-carousel {
+    height: 500px;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    margin-top: 66px;
+}
+
+.bottom-left {
+    padding: 20px;
+    text-align: justify;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: #fff;
+    text-align: left;
+    text-shadow: 2px 2px #000;
+    -webkit-text-stroke: 1px black;
+    // font-weight: 900;
+    font-size: 28px;
+}
+
+.carousel-img {
+    height: 500px;
+    object-fit: cover;
+    width: 100%;
+}
+
+@media only screen and (max-width: 576px) {
+    .container-carousel {
+        height: 400px;
+        text-align: center;
+        width: 100%;
+        margin: 0;
+        // margin-top: 66px;
+        padding-top: 90px;
+        display: table;
+    }
+
+    .carousel-img {
+        height: 400px;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .card-title {
+        font-size: 18px !important;
+    }
+}

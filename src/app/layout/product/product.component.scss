@@ -1,0 +1,33 @@
+.container-product {
+    display: block;
+    border-bottom: 0.5px solid #dfdfdf !important;
+}
+
+.card {
+    margin: 30px auto;
+}
+
+.card-title {
+    text-transform: capitalize;
+}
+
+.card:hover {
+    color: red;
+    text-shadow: 2px 2px #dbdbdb;
+}
+
+.card-img-product {
+    border-radius: 10px;
+}
+
+.card {
+    width: 18rem;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 576px) {
+    .card {
+        width: unset;
+        cursor: pointer;
+    }
+}

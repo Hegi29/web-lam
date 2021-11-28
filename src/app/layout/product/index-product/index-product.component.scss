@@ -1,0 +1,54 @@
+.container-product {
+    display: block;
+    border-bottom: 0.5px solid #dfdfdf !important;
+}
+
+.card-title {
+    text-transform: capitalize;
+}
+
+.active {
+    color: red;
+}
+
+.card-img-product {
+    border-radius: 10px;
+    height: 147px;
+    margin: 0 auto;
+}
+
+ul .active {
+    color: #e7414d;
+    // list-style-image: url('sqpurple.gif');
+}
+
+li {
+    cursor: pointer;
+}
+
+li:hover {
+    color: #e7414d;
+    text-shadow: 2px 2px #dbdbdb;
+}
+
+@media only screen and (max-width: 576px) {
+    ul {
+        padding-top: 40px;
+    }
+
+    .card {
+        width: unset;
+        cursor: pointer;
+    }
+
+    .card-img-product {
+        border-radius: 10px;
+        height: 147px;
+        width: unset;
+        margin: 0 auto;
+    }
+
+    #link-urine-products {
+        margin-bottom: 100px;
+    }
+}

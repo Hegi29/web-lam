@@ -1,0 +1,281 @@
+<div style="min-height: 100vh;">
+    <app-header></app-header>
+    <div class="container-product" id="products" style="min-height: 100vh;margin-top: 100px;">
+        <div class="row mx-5">
+            <div class="col-md-3">
+                <ul>
+                    <li>
+                        <p class="card-title active" id="link-all-products">all products</p>
+                    </li>
+                    <li>
+                        <p class="card-title" id="link-blood-products">blood gas analyzer</p>
+                    </li>
+                    <li>
+                        <p class="card-title" id="link-electrolyte-products">electrolyte analyzer</p>
+                    </li>
+                    <li>
+                        <p class="card-title" id="link-hematologi-products">hematologi analyzer</p>
+                    </li>
+                    <li>
+                        <p class="card-title" id="link-hemostasis-products">hemostasis analyzer</p>
+                    </li>
+                    <li>
+                        <p class="card-title" id="link-immunology-products">immunology analyzer</p>
+                    </li>
+                    <li>
+                        <p class="card-title" id="link-urine-products">urine analyzer</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-9">
+                <div class="row" id="all-products">
+                    <div class="col-md-3 col-sm-12 px-0">
+                        <div class="card border-0" style="cursor: pointer;"
+                            (click)="goTo('/product/blood-gas-analyzer-siemens')">
+                            <img class="card-img-product"
+                                src="../../../assets/image/product/blood gas analyzer siemens.png" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-title text-center">blood gas analyzer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12 px-0">
+                        <div class="card border-0" style="cursor: pointer;"
+                            (click)="goTo('/product/electrolyte-analyzer-audicom')">
+                            <img class="card-img-product"
+                                src="../../../assets/image/product/electrolyte analyzer audicom.png"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-title text-center">electrolyte analyzer audicom</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12 px-0">
+                        <div class="card border-0" style="cursor: pointer;"
+                            (click)="goTo('/product/electrolyte-analyzer-avl')">
+                            <img class="card-img-product"
+                                src="../../../assets/image/product/electrolyte analyzer avl.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-title text-center">electrolyte analyzer avl</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-12 px-0">
+                        <div class="card border-0" style="cursor: pointer;"
+                            (click)="goTo('/product/hematology-analyzer')">
+                            <img class="card-img-product"
+                                src="../../../assets/image/product/hematologi analyzer bc_6800.jpg"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-title text-center">hematologi analyzer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12 px-0">
+                        <div class="card border-0" style="cursor: pointer;"
+                            (click)="goTo('/product/hemostasis-analyzer')">
+                            <img class="card-img-product" src="../../../assets/image/product/hemostasis analyzer.jpg"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-title text-center">hemostasis analyzer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12 px-0">
+                        <div class="card border-0" style="cursor: pointer;"
+                            (click)="goTo('/product/immunology-analyzer')">
+                            <img class="card-img-product" src="../../../assets/image/product/immunology analyzer.png"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-title text-center">immunology analyzer</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-12 px-0">
+                        <div class="card border-0" style="cursor: pointer;" (click)="goTo('/product/urine-analyzer')">
+                            <img class="card-img-product" src="../../../assets/image/product/urine analyzer ae-4020.png"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-title text-center">urine analyzer ae-4020</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12 px-0">
+                        <div class="card border-0" style="cursor: pointer;"
+                            (click)="goTo('/product/urine-analyzer-cobio')">
+                            <img class="card-img-product" src="../../../assets/image/product/urine analyzer cobio.png"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-title text-center">urine analyzer cobio</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="blood-gas-analyzer-products" class='row d-none'>
+                    <div class="col-md-12 col-sm-12 px-0">
+                        <div class="card border-0">
+                            <img class="card-img-product"
+                                src="../../../assets/image/product/blood gas analyzer siemens.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title text-center active">blood gas analyzer</h4>
+                                <p class="card-text text-justify">The RAPIDLab® 348EX Blood Gas System* is the
+                                    cost-effective
+                                    solution for
+                                    smaller laboratories tasked with the challenge of performing fast-turnaround
+                                    critical care
+                                    tests. Fully-automated operation supports low-to-medium throughput on an
+                                    easy-to-use
+                                    analyzer
+                                    that’s ready to generate accurate, on-demand results when clinicians need
+                                    them, with
+                                    a minimum
+                                    of operator involvement.</p>
+                                <!-- <a href="#" class="btn btn-primary">Detail</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="electrolite-analyzer-products" class='row d-none'>
+                    <div class="col-md-12 col-sm-12 px-0">
+                        <div class="card border-0">
+                            <img class="card-img-product"
+                                src="../../../assets/image/product/electrolyte analyzer avl.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title text-center active">electrolyte analyzer avl</h4>
+                                <p class="card-text text-justify">The AVL 9180 is an electrolyte analysis system from
+                                    Roche Diagnostics. It is a
+                                    small system intended for use in various health care centers, physician office lab
+                                    settings, and
+                                    point of care units.
+
+                                    This analyzer is the best solution for performing electrolytic analysis from whole
+                                    blood as well
+                                    as plasma, urine dialysate, serum or aqueous standards. This medical instrument is
+                                    easy to use
+                                    and provides fast sample analysis, with the capability to provide accurate and
+                                    consistent
+                                    results within one minute. This instrument's enhanced microprocessor-based
+                                    technology and
+                                    easy-to-use design provides top performance and operational flexibility. Other
+                                    benefits of this
+                                    system include quick change of analyte, user friendliness, flexibility, and low
+                                    maintenance.
+
+                                    Electrodes not included, but available from Block Scientific</p>
+                                <!-- <a href="#" class="btn btn-primary">Detail</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="hematology-analyzer-products" class='row d-none'>
+                    <div class="col-md-12 col-sm-12 px-0">
+                        <div class="card border-0">
+                            <img class="card-img-product"
+                                src="../../../assets/image/product/hematologi analyzer bc_6800.jpg"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title text-center active">hematologi analyzer</h4>
+                                <p class="card-text text-justify"> 5-Part Differentiation of the WBC; 37 Parameters + 42
+                                    Research
+                                    Parameters + 2
+                                    Histograms for RBC & PLT + 3 3D Scattergrams for DIFF, WNB, RET and
+                                    5 2D Scattergrams for DIFF,WNB,RET,
+                                    RET-EXT,PLT-O
+                                    - Throughput: 200 Samples per Hour ( CBC + DIFF ) 120 Samples per Hour
+                                    (CBC+DIFF+RET) 120
+                                    Samples per hour (RET) 40 Samples per hour ( Body Fluid )
+                                    - Autoloader with 100 tube capacity for continuous loading
+                                    - Up to 100,000 Sample Results (Including Histogram) can be saved
+                                    - Bi-Directional LIS Connection</p>
+                                <!-- <a href="#" class="btn btn-primary">Detail</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="hemostatis-analyzer-products" class='row d-none'>
+                    <div class="col-md-12 col-sm-12 px-0">
+                        <div class="card border-0">
+                            <img class="card-img-product" src="../../../assets/image/product/hemostasis analyzer.jpg"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title text-center active">hemostasis analyzer</h4>
+                                <p class="card-text text-grey-lam text-justify">The Windows-based STA Compact Max offers
+                                    easy-to-use operation at any skill
+                                    level, and seamless integration into mid- to high-volume labs. The included Expert
+                                    Module
+                                    features auto-verification, expert rules, advanced QC system, and electronic lot
+                                    conversion.</p>
+                                <!-- <a href="#" class="btn btn-primary">Detail</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="immunology-analyzer-products" class='row d-none'>
+                    <div class="col-md-12 col-sm-12 px-0">
+                        <div class="card border-0">
+                            <img class="card-img-product" src="../../../assets/image/product/immunology analyzer.png"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title text-center active">immunology analyzer</h4>
+                                <p class="card-text text-grey-lam text-justify">The workload demands on your laboratory
+                                    and staff are continually increasing.
+                                    To stay ahead of these growing demands, you need an easy-to-use chemistry system
+                                    that maintains
+                                    continuous operation and delivers powerful productivity for improved efficiency.
+
+                                    The ADVIA® Chemistry XPT System is engineered for continuous operation and timely,
+                                    accurate
+                                    results. The system’s advanced software and VeriSmart™ Technology provide accurate
+                                    testing for
+                                    predictable, timely, and reliable results to meet your expanding workload.
+
+                                    Simplified operation enhances workflow.
+                                    Powerful automation and diagnostics IT streamline and accelerate workflow.
+                                    VeriSmart system verification technologies support rapid, accurate results.
+                                    Unique sample management delivers rapid, consistent, predictable turnaround time.
+                                </p>
+                                <!-- <a href="#" class="btn btn-primary">Detail</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="urine-analyzer-products" class='row d-none'>
+                    <div class="col-md-12 col-sm-12 px-0">
+                        <div class="card border-0">
+                            <img class="card-img-product" src="../../../assets/image/product/urine analyzer cobio.png"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title active text-center">urine analyzer cobio</h4>
+                                <p class="card-text text-grey-lam text-justify">Cobio S80 is a fully automated sample
+                                    processing &
+                                    evaluation of
+                                    urine
+                                    sediment.
+
+                                    COBIO Urine Sediment Analyzer using the latest technology in the market. It is made
+                                    full of
+                                    artificial vision technology and machine automation, digital microscopic imaging and
+                                    cutting-edge technology such as AI artificial intelligence
+
+                                    Speedy: Throughput up to 80 samples/ hour
+                                    Technology standard: Whole view field microscopic high definition images
+                                    Simple to operate: Built-in high resolution and user-friendly touch screen
+                                    Smart system: Artificial intelligence recognition algorithm</p>
+                                <!-- <a href="#" class="btn btn-primary">Detail</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <app-footer></app-footer>
+</div>
