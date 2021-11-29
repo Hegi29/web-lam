@@ -81,20 +81,20 @@ export class AboutComponent implements OnInit {
       that.setID();
     }
 
-    $('#recepsionist').click(function () {
-      $('#recepsionist').removeClass('active');
+    $('#receptionist').click(function () {
+      $('#receptionist').removeClass('active');
       $('#workshop1').removeClass('active');
       $('#workshop2').removeClass('active');
       $('#workshop3').removeClass('active');
       $('#warehouse').removeClass('active');
       $('#office').removeClass('active');
 
-      $('#recepsionist').addClass('active');
-      $('#main-about-img').prop("src", "../../../assets/image/recepsionist.jpeg");
+      $('#receptionist').addClass('active');
+      $('#main-about-img').prop("src", "../../../assets/image/receptionist.jpeg");
     });
 
     $('#workshop1').click(function () {
-      $('#recepsionist').removeClass('active');
+      $('#receptionist').removeClass('active');
       $('#workshop1').removeClass('active');
       $('#workshop2').removeClass('active');
       $('#workshop3').removeClass('active');
@@ -106,7 +106,7 @@ export class AboutComponent implements OnInit {
     });
 
     $('#workshop2').click(function () {
-      $('#recepsionist').removeClass('active');
+      $('#receptionist').removeClass('active');
       $('#workshop1').removeClass('active');
       $('#workshop2').removeClass('active');
       $('#workshop3').removeClass('active');
@@ -118,7 +118,7 @@ export class AboutComponent implements OnInit {
     });
 
     $('#workshop3').click(function () {
-      $('#recepsionist').removeClass('active');
+      $('#receptionist').removeClass('active');
       $('#workshop1').removeClass('active');
       $('#workshop2').removeClass('active');
       $('#workshop3').removeClass('active');
@@ -130,7 +130,7 @@ export class AboutComponent implements OnInit {
     });
 
     $('#warehouse').click(function () {
-      $('#recepsionist').removeClass('active');
+      $('#receptionist').removeClass('active');
       $('#workshop1').removeClass('active');
       $('#workshop2').removeClass('active');
       $('#workshop3').removeClass('active');
@@ -142,7 +142,7 @@ export class AboutComponent implements OnInit {
     });
 
     $('#office').click(function () {
-      $('#recepsionist').removeClass('active');
+      $('#receptionist').removeClass('active');
       $('#workshop1').removeClass('active');
       $('#workshop2').removeClass('active');
       $('#workshop3').removeClass('active');
