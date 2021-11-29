@@ -1,4 +1,4 @@
-# WebsiteLaksana
+# WebsiteLaksana [![Netlify Status](https://api.netlify.com/api/v1/badges/194ae06e-eb60-42bc-b129-cfe398a139ba/deploy-status)](https://app.netlify.com/sites/laksana/deploys)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.
 
