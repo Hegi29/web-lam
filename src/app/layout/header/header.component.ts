@@ -138,9 +138,43 @@ export class HeaderComponent implements OnInit {
     if (id === 'dark') {
       $('#dark').addClass('d-none');
       $('#light').removeClass('d-none');
+      $('#container-header').removeClass('container-header-light');
+      $('#container-header').addClass('container-header-dark');
+      $('#slider-lang').addClass('slider-dark');
+      $('#slider-lang').removeClass('slider');
+      $('#row-1').addClass('dark-bg');
+      $('#row-2').addClass('dark-bg');
+      $('#row-3').addClass('dark-bg');
+      $('#bottom-1').addClass('bottom-left-dark');
+      $('#bottom-1').removeClass('bottom-left');
+      $('#bottom-2').addClass('bottom-left-dark');
+      $('#bottom-2').removeClass('bottom-left');
+      $('#bottom-3').addClass('bottom-left-dark');
+      $('#bottom-3').removeClass('bottom-left');
+      $('#first-slide').prop('src', '../../../assets/image/office.png');
+      $('#second-slide').prop('src', '../../../assets/image/receptionist.png');
+      $('#third-slide').prop('src', '../../../assets/image/workshop 2.png');
+      $('#products').css('background-color', '#1B262C');
     } else {
       $('#dark').removeClass('d-none');
       $('#light').addClass('d-none');
+      $('#container-header').addClass('container-header-light');
+      $('#container-header').removeClass('container-header-dark');
+      $('#slider-lang').removeClass('slider-dark');
+      $('#slider-lang').addClass('slider');
+      $('#row-1').removeClass('dark-bg');
+      $('#row-2').removeClass('dark-bg');
+      $('#row-3').removeClass('dark-bg');
+      $('#bottom-1').removeClass('bottom-left-dark');
+      $('#bottom-1').addClass('bottom-left');
+      $('#bottom-2').removeClass('bottom-left-dark');
+      $('#bottom-2').addClass('bottom-left');
+      $('#bottom-3').removeClass('bottom-left-dark');
+      $('#bottom-3').addClass('bottom-left');
+      $('#first-slide').prop('src', '../../../assets/image/office 2.jpg');
+      $('#second-slide').prop('src', '../../../assets/image/receptionist_2.jpg');
+      $('#third-slide').prop('src', '../../../assets/image/workshop 2_2.jpg');
+      $('#products').css('background-color', '#fff');
     }
   }
 }

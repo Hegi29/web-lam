@@ -2,9 +2,9 @@
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="width: 100%;">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="bottom-left">
+                <div class="row" id="row-1">
+                    <div class="col-md-4 pr-0">
+                        <div class="bottom-left" id="bottom-1">
                             <p class="ml-3">Distributor {{lang == 'en' ? 'For' : 'Untuk'}} :</p>
                             <ul>
                                 <!-- <li>Electrolyte ISE</li>
@@ -19,15 +19,16 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-8">
-                        <img class="d-block carousel-img" src="../../../assets/image/office 2.jpg" alt="First slide">
+                    <div class="col-md-8 pl-0">
+                        <img class="d-block carousel-img pl-0" src="../../../assets/image/office 2.jpg"
+                            alt="First slide" id="first-slide">
                     </div>
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="row">
+                <div class="row" id="row-2">
                     <div class="col-md-4">
-                        <div class="bottom-left">
+                        <div class="bottom-left" id="bottom-2">
                             <p class="ml-3">Distributor {{lang == 'en' ? 'For' : 'Untuk'}} :</p>
                             <ul>
                                 <li>Urine Analyzer</li>
@@ -39,18 +40,18 @@
                     </div>
                     <div class="col-md-8">
                         <img class="d-block w-100 carousel-img" src="../../../assets/image/receptionist_2.jpg"
-                            alt="Second slide">
+                            alt="Second slide" id="second-slide">
                     </div>
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="row">
+                <div class="row" id="row-3">
                     <div class="col-md-4">
-                        <div class="bottom-left">{{lang == 'id' ? desc_company : desc_company_en}}</div>
+                        <div class="bottom-left" id="bottom-3">{{lang == 'id' ? desc_company : desc_company_en}}</div>
                     </div>
                     <div class="col-md-8">
                         <img class="d-block w-100 carousel-img" src="../../../assets/image/workshop 2_2.jpg"
-                            alt="Third slide">
+                            alt="Third slide" id="third-slide">
                     </div>
                 </div>
             </div>
