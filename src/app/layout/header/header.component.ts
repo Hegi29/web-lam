@@ -130,4 +130,17 @@ export class HeaderComponent implements OnInit {
     this.lbl_about = 'Tentang Kami';
     this.lbl_contact = 'Kontak';
   }
+
+  darkMode(id: string) {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+
+    if (id === 'dark') {
+      $('#dark').addClass('d-none');
+      $('#light').removeClass('d-none');
+    } else {
+      $('#dark').removeClass('d-none');
+      $('#light').addClass('d-none');
+    }
+  }
 }

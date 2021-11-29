@@ -11,7 +11,7 @@ export class CarouselComponent implements OnInit {
   desc_company = `Khusus penyediaan alat dan peralatan Laboratorium Klinik ; AGD dan Electrolyte,
   Auto Analyzer, Immunology, Hematology termasuk reagen dan QC, Software LIS.`;
   // didukung oleh tim Teknisi dan Aplikasi handal.`;
-  desc_company_en = `Special providers of clinical laboratory equipment; AGD and Electrolyte,
+  desc_company_en = `Special providers of clinical laboratory equipment ; AGD and Electrolyte,
   Autoanalyzer, Immunology, Hematology including reagents and QC, LIS Software.`;
   // Supported by team of reliable Technicians and Applications.`;
   lang = 'id';
