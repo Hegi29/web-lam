@@ -95,8 +95,6 @@ export class IndexProductComponent implements OnInit {
     });
 
     $('#link-blood-products').click(function () {
-      // window.history.pushState('', '', '/product');
-
       $('#link-all-products').removeClass('active');
       $('#link-blood-products').addClass('active');
       $('#link-electrolyte-products').removeClass('active');
@@ -115,8 +113,6 @@ export class IndexProductComponent implements OnInit {
     });
 
     $('#link-electrolyte-products').click(function () {
-      // window.history.pushState('', '', '/product');
-
       $('#link-all-products').removeClass('active');
       $('#link-blood-products').removeClass('active');
       $('#link-electrolyte-products').addClass('active');
@@ -135,8 +131,6 @@ export class IndexProductComponent implements OnInit {
     });
 
     $('#link-hematologi-products').click(function () {
-      // window.history.pushState('', '', '/product');
-
       $('#link-all-products').removeClass('active');
       $('#link-blood-products').removeClass('active');
       $('#link-electrolyte-products').removeClass('active');
@@ -155,8 +149,6 @@ export class IndexProductComponent implements OnInit {
     });
 
     $('#link-hemostasis-products').click(function () {
-      // window.history.pushState('', '', '/product');
-
       $('#link-all-products').removeClass('active');
       $('#link-blood-products').removeClass('active');
       $('#link-electrolyte-products').removeClass('active');
@@ -175,8 +167,6 @@ export class IndexProductComponent implements OnInit {
     });
 
     $('#link-immunology-products').click(function () {
-      // window.history.pushState('', '', '/product');
-
       $('#link-all-products').removeClass('active');
       $('#link-blood-products').removeClass('active');
       $('#link-electrolyte-products').removeClass('active');
@@ -195,8 +185,6 @@ export class IndexProductComponent implements OnInit {
     });
 
     $('#link-urine-products').click(function () {
-      // window.history.pushState('', '', '/product');
-
       $('#link-all-products').removeClass('active');
       $('#link-blood-products').removeClass('active');
       $('#link-electrolyte-products').removeClass('active');

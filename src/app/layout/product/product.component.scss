@@ -1,6 +1,5 @@
 .container-product {
     display: block;
-    // border-bottom: 0.5px solid #dfdfdf !important;
 }
 
 .card {
@@ -23,6 +22,11 @@
 .card {
     width: 18rem;
     cursor: pointer;
+}
+
+.card-dark {
+    color: #bbe1fa;
+    background-color: rgb(27, 38, 44);
 }
 
 @media only screen and (max-width: 576px) {
