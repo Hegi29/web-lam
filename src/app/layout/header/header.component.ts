@@ -151,6 +151,7 @@ export class HeaderComponent implements OnInit {
       $('#bottom-2').removeClass('bottom-left');
       $('#bottom-3').addClass('bottom-left-dark');
       $('#bottom-3').removeClass('bottom-left');
+      $('#home').prop('src', '../../../assets/image/logo LAM dark.jpeg');
       $('#first-slide').prop('src', '../../../assets/image/office.png');
       $('#second-slide').prop('src', '../../../assets/image/receptionist.png');
       $('#third-slide').prop('src', '../../../assets/image/workshop 2.png');
@@ -171,6 +172,7 @@ export class HeaderComponent implements OnInit {
       $('#bottom-2').addClass('bottom-left');
       $('#bottom-3').removeClass('bottom-left-dark');
       $('#bottom-3').addClass('bottom-left');
+      $('#home').prop('src', '../../../assets/image/logo LAM.png');
       $('#first-slide').prop('src', '../../../assets/image/office 2.jpg');
       $('#second-slide').prop('src', '../../../assets/image/receptionist_2.jpg');
       $('#third-slide').prop('src', '../../../assets/image/workshop 2_2.jpg');
