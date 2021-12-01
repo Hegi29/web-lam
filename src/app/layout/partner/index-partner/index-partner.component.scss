@@ -1,4 +1,10 @@
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
 #partners {
-    padding-top: 200px;
-    background-color: #f7f5f4;
+    min-height: 100vh;
+    // margin-top: 65px;
+    // background-color: #f7f5f4;
 }
