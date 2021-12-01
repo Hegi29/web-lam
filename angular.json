@@ -29,7 +29,8 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "src/netlify.toml"
+              "src/netlify.toml",
+              "src/.htaccess"
             ],
             "styles": [
               "src/styles.scss",
