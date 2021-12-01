@@ -10,7 +10,14 @@
                 <img src="../../../assets/image/search.png" class="flag" id="search">
                 <img src="../../../assets/image/cancel.png" class="flag d-none" id="close">
                 <div class="dropdown-content mt-2">
-                    <input type="text" placeholder="" class="form-control" [(ngModel)]="keyword">
+                    <div class="input-group">
+                        <input type="text" placeholder="" class="form-control shadow-none" [(ngModel)]="keyword"
+                            (keydown)="searchEnter($event)" id="input-search">
+                        <div class="input-group-append">
+                            <button class="btn btn-primary shadow-none" id="btn-search"
+                                (click)="search()">{{lbl_btn_search}}</button>
+                        </div>
+                    </div>
                 </div>
             </span>
             <label class="switch ml-3 mr-1 mb-0">

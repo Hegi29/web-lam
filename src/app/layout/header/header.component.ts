@@ -15,6 +15,7 @@ export class HeaderComponent implements OnInit {
   lbl_product = 'Produk';
   lbl_about = 'Tentang Kami';
   lbl_contact = 'Kontak';
+  lbl_btn_search = 'Cari';
 
   constructor(private router: Router) { }
 
@@ -92,6 +93,7 @@ export class HeaderComponent implements OnInit {
       $('.dropdown-content').show();
       $('#search').addClass('d-none');
       $('#close').removeClass('d-none');
+      $('#input-search').focus();
     });
 
     $('#close').click(function () {
@@ -128,6 +130,7 @@ export class HeaderComponent implements OnInit {
     this.lbl_product = 'Product';
     this.lbl_about = 'About Us';
     this.lbl_contact = 'Contact';
+    this.lbl_btn_search = 'Search';
   }
 
   setID() {
@@ -135,6 +138,43 @@ export class HeaderComponent implements OnInit {
     this.lbl_product = 'Produk';
     this.lbl_about = 'Tentang Kami';
     this.lbl_contact = 'Kontak';
+    this.lbl_btn_search = 'Cari';
+  }
+
+  searchEnter(event: any) {
+    if (!event.shiftKey && (event.key === "Enter" || event.key === "Tab")) {
+      event.preventDefault();
+      this.search();
+    }
+  }
+
+  search() {
+    switch (this.keyword) {
+      case 'partner':
+        this.router.navigate(['/partner']);
+        break;
+      case 'rekanan':
+        this.router.navigate(['/partner']);
+        break;
+      case 'product':
+        this.router.navigate(['/product']);
+        break;
+      case 'produk':
+        this.router.navigate(['/product']);
+        break;
+      case 'about':
+        this.router.navigate(['/about']);
+        break;
+      case 'tentang kami':
+        this.router.navigate(['/about']);
+        break;
+      case 'contact':
+        this.router.navigate(['/contact']);
+        break;
+      case 'kontak':
+        this.router.navigate(['/contact']);
+        break;
+    }
   }
 
   setDarkData() {
