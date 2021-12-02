@@ -149,31 +149,33 @@ export class HeaderComponent implements OnInit {
   }
 
   search() {
-    switch (this.keyword) {
-      case 'partner':
-        this.router.navigate(['/partner']);
-        break;
-      case 'rekanan':
-        this.router.navigate(['/partner']);
-        break;
-      case 'product':
-        this.router.navigate(['/product']);
-        break;
-      case 'produk':
-        this.router.navigate(['/product']);
-        break;
-      case 'about':
-        this.router.navigate(['/about']);
-        break;
-      case 'tentang kami':
-        this.router.navigate(['/about']);
-        break;
-      case 'contact':
-        this.router.navigate(['/contact']);
-        break;
-      case 'kontak':
-        this.router.navigate(['/contact']);
-        break;
+    if (this.keyword) {
+      switch (this.keyword.toLowerCase()) {
+        case 'partner':
+          this.router.navigate(['/partner']);
+          break;
+        case 'rekanan':
+          this.router.navigate(['/partner']);
+          break;
+        case 'product':
+          this.router.navigate(['/product']);
+          break;
+        case 'produk':
+          this.router.navigate(['/product']);
+          break;
+        case 'about':
+          this.router.navigate(['/about']);
+          break;
+        case 'tentang kami':
+          this.router.navigate(['/about']);
+          break;
+        case 'contact':
+          this.router.navigate(['/contact']);
+          break;
+        case 'kontak':
+          this.router.navigate(['/contact']);
+          break;
+      }
     }
   }
 
