@@ -15,9 +15,10 @@ export class ProductComponent implements OnInit {
   ngOnInit(): void {
     if (localStorage.getItem('theme') == 'dark') {
       this.setDark();
-    } else {
-      this.setLight();
+      return;
     }
+
+    this.setLight();
   }
 
   redirectTo(id: string) {

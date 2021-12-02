@@ -14,6 +14,10 @@ export class FooterComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    this.initAction();
+  }
+
+  initAction() {
     const that = this;
 
     if (localStorage.getItem('lang') == 'en') {

@@ -20,6 +20,10 @@ export class HeaderComponent implements OnInit {
   constructor(private router: Router) { }
 
   ngOnInit(): void {
+    this.initAction();
+  }
+
+  initAction() {
     let route = window.location.pathname;
 
     if (route.includes('product')) {

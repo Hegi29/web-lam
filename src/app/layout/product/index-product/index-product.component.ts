@@ -14,7 +14,10 @@ export class IndexProductComponent implements OnInit {
 
   ngOnInit(): void {
     this.handleClick();
+    this.switchParam();
+  }
 
+  switchParam() {
     const params = window.location.pathname;
     switch (params) {
       case '/product/blood-gas-analyzer-siemens':

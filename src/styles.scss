@@ -1,6 +1,11 @@
 @import 'assets/css/bootstrap.min.css';
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
 
+html,
+body {
+    min-height: 100vh;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -46,9 +51,4 @@ body {
 
 .text-red-lam {
     color: #e7414d;
-}
-
-html,
-body {
-    min-height: 100vh;
 }

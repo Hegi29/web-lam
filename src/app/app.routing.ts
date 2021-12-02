@@ -6,7 +6,6 @@ import { ContactComponent } from './layout/contact/contact.component';
 import { HomeComponent } from './layout/home/home.component';
 import { IndexPartnerComponent } from './layout/partner/index-partner/index-partner.component';
 import { IndexProductComponent } from './layout/product/index-product/index-product.component';
-import { ProductComponent } from './layout/product/product.component';
 
 const routes: Routes = [
     {

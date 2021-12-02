@@ -24,6 +24,10 @@ export class ContactComponent implements OnInit {
   constructor() { window.scrollTo(0, 0); }
 
   ngOnInit(): void {
+    this.initAction();
+  }
+
+  initAction() {
     const that = this;
 
     if (localStorage.getItem('lang') == 'en') {

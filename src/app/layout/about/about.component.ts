@@ -65,6 +65,10 @@ export class AboutComponent implements OnInit {
 
   ngOnInit(): void {
     AOS.init();
+    this.initAction();
+  }
+
+  initAction() {
     this.mybutton = document.getElementById("myBtn2");
 
     const that = this;
@@ -90,7 +94,7 @@ export class AboutComponent implements OnInit {
       $('#office').removeClass('active');
 
       $('#receptionist').addClass('active');
-      $('#main-about-img').prop("src", "../../../assets/image/receptionist.jpeg");
+      $('#main-about-img').prop("src", "../../../assets/image/receptionist.webp");
     });
 
     $('#workshop1').click(function () {
@@ -102,7 +106,7 @@ export class AboutComponent implements OnInit {
       $('#office').removeClass('active');
 
       $('#workshop1').addClass('active');
-      $('#main-about-img').prop("src", "../../../assets/image/workshop 1.jpeg");
+      $('#main-about-img').prop("src", "../../../assets/image/workshop 1.webp");
     });
 
     $('#workshop2').click(function () {
@@ -114,7 +118,7 @@ export class AboutComponent implements OnInit {
       $('#office').removeClass('active');
 
       $('#workshop2').addClass('active');
-      $('#main-about-img').prop("src", "../../../assets/image/workshop 2.jpeg");
+      $('#main-about-img').prop("src", "../../../assets/image/workshop 2.webp");
     });
 
     $('#workshop3').click(function () {
@@ -126,7 +130,7 @@ export class AboutComponent implements OnInit {
       $('#office').removeClass('active');
 
       $('#workshop3').addClass('active');
-      $('#main-about-img').prop("src", "../../../assets/image/workshop 3.jpeg");
+      $('#main-about-img').prop("src", "../../../assets/image/workshop 3.webp");
     });
 
     $('#warehouse').click(function () {
@@ -138,7 +142,7 @@ export class AboutComponent implements OnInit {
       $('#office').removeClass('active');
 
       $('#warehouse').addClass('active');
-      $('#main-about-img').prop("src", "../../../assets/image/warehouse.jpeg");
+      $('#main-about-img').prop("src", "../../../assets/image/warehouse.webp");
     });
 
     $('#office').click(function () {
@@ -150,7 +154,7 @@ export class AboutComponent implements OnInit {
       $('#office').removeClass('active');
 
       $('#office').addClass('active');
-      $('#main-about-img').prop("src", "../../../assets/image/office.jpeg");
+      $('#main-about-img').prop("src", "../../../assets/image/office.webp");
     });
 
     $('#switch-lang').change(function () {

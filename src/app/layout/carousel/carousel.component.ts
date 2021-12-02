@@ -19,6 +19,10 @@ export class CarouselComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    this.initAction();
+  }
+
+  initAction() {
     const that = this;
 
     if (localStorage.getItem('lang') == 'en') {
@@ -47,6 +51,5 @@ export class CarouselComponent implements OnInit {
       $('#id-flag').removeClass('d-none');
       $('#uk-flag').addClass('d-none');
     });
-
   }
 }

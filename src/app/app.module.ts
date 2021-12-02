@@ -2,13 +2,13 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
 import { GoogleMapsModule } from '@angular/google-maps';
+import { FormsModule } from '@angular/forms';
 import { LottieModule } from 'ngx-lottie';
 import player from 'lottie-web';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './layout/header/header.component';
 import { FooterComponent } from './layout/footer/footer.component';
-import { ServiceComponent } from './layout/service/service.component';
 import { ContactComponent } from './layout/contact/contact.component';
 import { CarouselComponent } from './layout/carousel/carousel.component';
 import { PartnerComponent } from './layout/partner/partner.component';
@@ -18,7 +18,6 @@ import { HomeComponent } from './layout/home/home.component';
 import { ProductComponent } from './layout/product/product.component';
 import { IndexPartnerComponent } from './layout/partner/index-partner/index-partner.component';
 import { IndexProductComponent } from './layout/product/index-product/index-product.component';
-import { FormsModule } from '@angular/forms';
 
 export function playerFactory() {
   return player;
@@ -29,7 +28,6 @@ export function playerFactory() {
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    ServiceComponent,
     ContactComponent,
     CarouselComponent,
     PartnerComponent,
