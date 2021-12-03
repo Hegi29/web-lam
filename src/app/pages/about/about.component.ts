@@ -191,9 +191,10 @@ export class AboutComponent implements OnInit {
   scrollFunction() {
     if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
       this.mybutton.style.display = "block";
-    } else {
-      this.mybutton.style.display = "none";
+      return;
     }
+
+    this.mybutton.style.display = "none";
   }
 
   topFunction() {

@@ -1,12 +1,12 @@
 import { NgModule } from "@angular/core";
 import { Routes, RouterModule } from "@angular/router";
-import { BaseLayoutComponent } from './base-layout/base-layout.component';
+import { BaseLayoutComponent } from './layout/base-layout/base-layout.component';
 
-import { AboutComponent } from './layout/about/about.component';
-import { ContactComponent } from './layout/contact/contact.component';
-import { HomeComponent } from './layout/home/home.component';
-import { IndexPartnerComponent } from './layout/partner/index-partner/index-partner.component';
-import { IndexProductComponent } from './layout/product/index-product/index-product.component';
+import { AboutComponent } from './pages/about/about.component';
+import { ContactComponent } from './pages/contact/contact.component';
+import { HomeComponent } from './pages/home/home.component';
+import { IndexPartnerComponent } from './pages/partner/index-partner/index-partner.component';
+import { IndexProductComponent } from './pages/product/index-product/index-product.component';
 
 const routes: Routes = [
     {

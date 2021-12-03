@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
 
+import { APP_TITLE } from './common/constants';
+
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
+  template: `<router-outlet></router-outlet>`,
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'website-laksana';
+  title = APP_TITLE;
 }

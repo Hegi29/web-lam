@@ -7,18 +7,18 @@ import { LottieModule } from 'ngx-lottie';
 import player from 'lottie-web';
 
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './layout/header/header.component';
 import { FooterComponent } from './layout/footer/footer.component';
-import { ContactComponent } from './layout/contact/contact.component';
+import { ContactComponent } from './pages/contact/contact.component';
 import { CarouselComponent } from './layout/carousel/carousel.component';
-import { PartnerComponent } from './layout/partner/partner.component';
-import { AboutComponent } from './layout/about/about.component';
+import { PartnerComponent } from './pages/partner/partner.component';
+import { AboutComponent } from './pages/about/about.component';
 import { AppRoutingModule } from './app.routing';
-import { HomeComponent } from './layout/home/home.component';
-import { ProductComponent } from './layout/product/product.component';
-import { IndexPartnerComponent } from './layout/partner/index-partner/index-partner.component';
-import { IndexProductComponent } from './layout/product/index-product/index-product.component';
-import { BaseLayoutComponent } from './base-layout/base-layout.component';
+import { HomeComponent } from './pages/home/home.component';
+import { ProductComponent } from './pages/product/product.component';
+import { IndexPartnerComponent } from './pages/partner/index-partner/index-partner.component';
+import { IndexProductComponent } from './pages/product/index-product/index-product.component';
+import { BaseLayoutComponent } from './layout/base-layout/base-layout.component';
+import { HeaderComponent } from './layout/header/header.component';
 
 export function playerFactory() {
   return player;
