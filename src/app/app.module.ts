@@ -18,6 +18,7 @@ import { HomeComponent } from './layout/home/home.component';
 import { ProductComponent } from './layout/product/product.component';
 import { IndexPartnerComponent } from './layout/partner/index-partner/index-partner.component';
 import { IndexProductComponent } from './layout/product/index-product/index-product.component';
+import { BaseLayoutComponent } from './base-layout/base-layout.component';
 
 export function playerFactory() {
   return player;
@@ -35,7 +36,8 @@ export function playerFactory() {
     HomeComponent,
     ProductComponent,
     IndexPartnerComponent,
-    IndexProductComponent
+    IndexProductComponent,
+    BaseLayoutComponent
   ],
   imports: [
     BrowserModule,
