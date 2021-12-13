@@ -39,10 +39,10 @@ export class AboutComponent implements OnInit {
   milestone_8_1_en = 'July - Operational cooperation of electrolytic equipment, immune chemistry, micro, LED, aggregation in RSHS, 70% of laboratory examinations';
   milestone_8_2 = 'Desember - Retur penjualan Rp 28.750.565.6000,-';
   milestone_8_2_en = 'December - Sales return Rp 28.750.565.6000,-';
-  desc_company = `Izin PAK Terbaru : HK.07.alkes/IV/593/AK.3.2010.
-  Khusus penyediaan alat dan peralatan Laboratorium Klinik ; AGD dan Electrolyte,
-  Auto Analyzer, Immunology, Hematology termasuk reagen dan QC, Software LIS.
-  didukung oleh tim Teknisi dan Aplikasi handal.`;
+  desc_company = `PT. Laksana Abadi Mandiri didirikan pada tahun 1995 di Bandung, Indonesia. 
+  Kami menyediakan alat dan reagen laboratorium klinik, diantaranya untuk analisa gas darah, elektrolit, immunologi, hematologi, dan auto analyzer. 
+  Kami juga menyediakan software LIS. Tim teknisi kami merupakan teknisi yang handal yang dapat merespon suatu masalah yang berkaitan dengan alat analisa gas darah, elektrolit, immunologi, hematologi, dan auto analyzer. 
+  Kami menyediakan spare parts dan segala kebutuhan lain untuk alat serta menyediakan alat cadangan ketika ada masalah atau kerusakan yang tidak dapat diperbaiki di tempat.`;
   desc_company_en = `Latest medical device distributor license : HK.07.alkes/IV/593/AK.3.2010.
   Special providers of clinical laboratory equipment; AGD and Electrolyte,
   Autoanalyzer, Immunology, Hematology including reagents and QC, LIS Software.

@@ -170,6 +170,9 @@ export class HeaderComponent implements OnInit {
         case 'about':
           this.router.navigate(['/about']);
           break;
+        case 'tentang':
+          this.router.navigate(['/about']);
+          break;
         case 'tentang kami':
           this.router.navigate(['/about']);
           break;
