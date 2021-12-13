@@ -43,10 +43,10 @@ export class AboutComponent implements OnInit {
   Kami menyediakan alat dan reagen laboratorium klinik, diantaranya untuk analisa gas darah, elektrolit, immunologi, hematologi, dan auto analyzer. 
   Kami juga menyediakan software LIS. Tim teknisi kami merupakan teknisi yang handal yang dapat merespon suatu masalah yang berkaitan dengan alat analisa gas darah, elektrolit, immunologi, hematologi, dan auto analyzer. 
   Kami menyediakan spare parts dan segala kebutuhan lain untuk alat serta menyediakan alat cadangan ketika ada masalah atau kerusakan yang tidak dapat diperbaiki di tempat.`;
-  desc_company_en = `Latest medical device distributor license : HK.07.alkes/IV/593/AK.3.2010.
-  Special providers of clinical laboratory equipment; AGD and Electrolyte,
-  Autoanalyzer, Immunology, Hematology including reagents and QC, LIS Software.
-  Supported by team of reliable Technicians and Applications.`;
+  desc_company_en = `PT. Laksana Abadi Mandiri was founded in 1995 in Bandung, Indonesia.
+  We provide clinical laboratory tools and reagents, including for blood gas analysis, electrolytes, immunology, hematology, and auto analyzer.
+  We also provide LIS software. Our team of technicians are reliable technicians who can respond to problems related to blood gas analyzers, electrolytes, immunology, hematology, and auto analyzers.
+  We provide spare parts and all other needs for tools and provide spare tools when there is a problem or damage that cannot be repaired on the spot.`;
   vision = 'Menjadi perusahaan penyalur Alkes terdepan di indonesia.';
   vision_en = 'Become the leading medical equipment distribution company in Indonesia';
   mission = `Menyediakan produk alat Kesehatan yang modern, berstandar Internasional
